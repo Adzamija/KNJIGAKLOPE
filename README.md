@@ -1,4 +1,14 @@
 # KNJIGAKLOPE
+## Developed a fully functional recipe website using the Flask framework, which allows users to discover various recipes or create and store their own recipes. The website utilizes the power of Python and its libraries to deliver dynamic and responsive content to the users, while also providing seamless navigation and user-friendly interfaces. The project involved implementing various features such as recipe creation, user authentication, and other.
+## How To Use App
+### To use this code, you also need to have the following installed on your machine:
+
+1. Python
+2. Flask
+3. sqlite3.db
+## Technical Specifications
+The primary objective of this website was to create a user-friendly page that can serve as an everyday helper. The UI was designed to be modern, while the functionality was optimized for maximum ease-of-use, which was the primary focus of the project.
+
 #### Description:
 THIS IS KNJIGAKLOPE
 I had an idea to create a webpage for recipes because I spent a lot of time contemplating what to eat and whether or not it's healthy, as well as searching for a place to store my recipes. As a result, I created an "index.html" file, which serves as the landing page and provides an overview of what the page offers, as well as options to register or log in for registered users.
@@ -48,5 +58,7 @@ The blog table has six columns: id, name, type, image, description, and ingridie
 
 The recipes table has seven columns: id, name, image, description, ingridients, instructions, and user_id. The id column is an integer type and is defined as the primary key with the AUTOINCREMENT keyword. The name, image, description, ingridients, and instructions columns are all of the TEXT data type and can be left empty. The user_id column is also an integer type and is used to store the id of the user who created the recipe. The recipes table is most likely used to store user-created recipes where each row represents a single recipe.
 
+## Contact
+Any information, bugs or questions can be sent on the e-mail adress: adzamija@icloud.com
 
 
