@@ -1,0 +1,62 @@
+{% extends "dashboard.html" %}
+
+{% block main %}
+<header class="section_portfolio-header-recipe background-color-orange25">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="padding-section-large">
+          <div class="portfolio-header-recipe_component">
+            <div class="margin-bottom margin-xxlarge">
+              <div class="text-align-center">
+                <div class="max-width-large">
+                  <div class="margin-bottom margin-small">
+                    <h1 id="recipe-name" class="heading-style-h2">{{ recipe }}</h1>
+                  </div>
+                  <div id="recipe-description" class="text-size-medium">{{ description }}</div>
+                  <div class="portfolio-header-recipe_tag-list">
+                    <a href="#" class="portfolio-header-recipe_tag-item w-inline-block">
+                      <div id="recipe-type">Breakfast</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-header-recipe_image-wrapper"><img src="{{ picture }}" loading="lazy" id="recipe-image" alt="" class="portfolio-header-recipe_image"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section_content">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="padding-section-large">
+          <div class="w-layout-grid content_component">
+            <h2 class="heading-style-h3">Ingridients</h2>
+            <div id="w-node-e048e854-5280-58ee-aa4f-bdfa473b8864-f6f56f45" class="content_content-right">
+              <div class="margin-bottom margin-xxlarge">
+                <p id="recipe-ingridients" class="text-size-large">{{ ingridents }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_content">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="padding-section-large">
+          <div class="w-layout-grid content_component">
+            <h2 class="heading-style-h3">Directions</h2>
+            <div id="w-node-_8fc87152-e14d-42f8-f457-4b9998b5db9d-f6f56f45" class="content_content-right">
+              <div class="margin-bottom margin-xxlarge">
+                <p id="recipe-ingridients" class="text-size-large">{{ instructions }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
